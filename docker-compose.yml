@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  pocketbase:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8080"
+    volumes:
+      - pocketbase_data:/pb/pb_data
+
+volumes:
+  pocketbase_data: {}
