@@ -1,0 +1,9 @@
+.git
+.gitignore
+README.md
+CHANGELOG.md
+LICENSE.md
+
+# Local binary and runtime data should not be copied into image.
+pocketbase.exe
+pb_data
